@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #3d7288;
+}
+
+.container {
+    text-align: center;
+    border: 2px solid #ccc;
+    padding: 20px;
+    background-color: #460808;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#picture {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #9c2d2d;
+    border-radius: 8px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
